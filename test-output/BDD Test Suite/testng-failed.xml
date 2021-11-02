@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test thread-count="1" name="Brainly Automation Suit(failed)" parallel="tests">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Brainly Automation Suit(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
